@@ -7,4 +7,4 @@ Test repository for CI_CD course
 
 ## Installation
 
-How to install
+How to install automation tools

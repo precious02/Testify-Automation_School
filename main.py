@@ -3,5 +3,5 @@ print("This is an update")
 print("Never give upppp")
 print("Good job")
 print("God is so good")
-print("Learning is fun")
+print("Learning is funn")
 #extra line

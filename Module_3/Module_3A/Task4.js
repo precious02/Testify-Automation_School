@@ -1,3 +1,2 @@
-//To output Hello World
+alert('Hello, world!')
 
-console.log('Hello, world!')

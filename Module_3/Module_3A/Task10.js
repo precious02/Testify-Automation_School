@@ -3,5 +3,5 @@ function calculateAreaOfRectangle (length,width){
     return product
 }
 
-const Area = calculateAreaOfRectangle(55,2)
+const Area = calculateAreaOfRectangle(50,2)
 console.log(Area)

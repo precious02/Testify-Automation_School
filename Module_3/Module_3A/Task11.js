@@ -1,2 +1,2 @@
-const friends = ['Emeka', 'Zite', 'Godslove', 'Olivia', 'Maryann']
+const friends = ['Felix', 'Zite', 'Godslove', 'Olivia', 'Maryann']
 console.log(friends)

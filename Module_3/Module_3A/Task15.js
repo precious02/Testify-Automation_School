@@ -35,7 +35,7 @@ for (let i = 0; i < books.length; i++){
         console.log(books[i].description)
         console.log(books[i].numberOfPages)
         console.log(books[i].author)
-        console.log("+++++")
+        console.log("++++++")
 
     }
 }

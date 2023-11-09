@@ -5,4 +5,4 @@ function returnBoolean(number) {
     }
 
 
-console.log(returnBoolean(digit));
+console.log(returnBoolean(digit))

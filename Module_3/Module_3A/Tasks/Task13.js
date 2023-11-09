@@ -7,3 +7,5 @@ const books = {
 }
 
 console.log(books['reading'])
+
+//Using object literal, write a JavaScript object, books.

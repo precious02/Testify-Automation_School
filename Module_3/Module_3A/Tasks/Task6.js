@@ -5,3 +5,5 @@ if(number%2 === 0){
 else {
     console.log('number is odd')
 }
+
+//Write a JavaScript program that checks if a number is even or odd

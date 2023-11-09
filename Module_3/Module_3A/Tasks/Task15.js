@@ -1,9 +1,5 @@
-// const books = {
-//     title : 'Rich Dad Poor Dad',
-//     description : 'Financial knowledge',
-//     numberOfPages : 500,
-//     author : 'Robert Kiyosaki',
-//     reading : true,
+// Use a for-loop to loop through the books array and log all books where the reading status is true to the console
+
     const books = [
         {
             title : 'Purple Hibiscus',

@@ -1,3 +1,4 @@
+
 const NumArray = [2,4,6,8,10]
 let SumofNumbers = 0
 

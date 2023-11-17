@@ -1,0 +1,72 @@
+//newman run API_Collection.json -e Testify_Staging_environment.json
+
+newman
+
+API Collection
+
+→ Get Status
+  GET https://simple-books-api.glitch.me/status [200 OK, 226B, 1632ms]
+  √  Verify that Status code is 200 OK
+
+→ Get Books
+  GET https://simple-books-api.glitch.me/books [200 OK, 631B, 548ms]
+  √  Verify that non-fiction is 200 OK
+  √  Verify the id number of a non-fiction book with the name Untamed
+
+→ Register an API Client
+  POST https://simple-books-api.glitch.me/api-clients/ [409 Conflict, 283B, 255ms]
+
+→ Get a single book
+  GET https://simple-books-api.glitch.me/books/5 [200 OK, 333B, 1295ms]
+  √  Verify that Status code is 200 OK
+
+→ Place a book order
+  POST https://simple-books-api.glitch.me/orders [422 Unprocessable Entity, 339B, 765ms]
+  1. Verify that Status Code is 201 Created
+
+→ Get all orders
+  GET https://simple-books-api.glitch.me/orders [200 OK, 2.64kB, 1346ms]
+  √  Verify that Status code is 200
+
+→ Get an order
+  GET https://simple-books-api.glitch.me/orders/JkFgUeSJlcWTxdzwfk144 [200 OK, 398B, 389ms]
+  √  Verify that Status code is 200
+
+→ Update an order
+  PATCH https://simple-books-api.glitch.me/orders/2PuYDvt-mlznQ1bJ5DZE9 [404 Not Found, 270B, 179ms]
+
+→ Delete an order
+  DELETE https://simple-books-api.glitch.me/orders/5cNLgN47drcs5YMW-zLPt [404 Not Found, 270B, 146ms]
+  2. Verify that Status code is 204 No Content
+
+┌─────────────────────────┬─────────────────────┬─────────────────────┐
+│                         │            executed │              failed │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              iterations │                   1 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│                requests │                   9 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│            test-scripts │                  17 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│      prerequest-scripts │                   9 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              assertions │                   8 │                   2 │
+├─────────────────────────┴─────────────────────┴─────────────────────┤
+│ total run duration: 7.7s                                            │
+├─────────────────────────────────────────────────────────────────────┤
+│ total data received: 3.34kB (approx)                                │
+├─────────────────────────────────────────────────────────────────────┤
+│ average response time: 728ms [min: 146ms, max: 1632ms, s.d.: 530ms] │
+└─────────────────────────────────────────────────────────────────────┘
+
+  #  failure                detail
+
+ 1.  AssertionError         Verify that Status Code is 201 Created
+                            expected 422 to be one of [ 201, 202 ]
+                            at assertion:0 in test-script
+                            inside "Place a book order"
+
+ 2.  AssertionError         Verify that Status code is 204 No Content
+                            expected response to have status code 204 but got 404
+                            at assertion:0 in test-script
+                            inside "Delete an order"

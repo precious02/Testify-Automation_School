@@ -84,7 +84,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test('Verify that Status code is 200', function () {\r",
+							"pm.test('Verify that Status code is 200 OK', function () {\r",
 							"     pm.response.to.have.status(200);\r",
 							"})\r",
 							""
@@ -97,20 +97,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "reqres.in/api/users?page=1",
+					"raw": "{{base_url}}/books",
 					"host": [
-						"reqres",
-						"in"
+						"{{base_url}}"
 					],
 					"path": [
-						"api",
-						"users"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "1"
-						}
+						"books"
 					]
 				}
 			},

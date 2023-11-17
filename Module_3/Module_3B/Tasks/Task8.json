@@ -13,10 +13,11 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test('Verify that Status code is 200', function () {\r",
-							"    pm.expect(pm.response.code).to.eql(200);\r",
+							"pm.test('Verify that Status code is 200 OK', function () {\r",
+							"     pm.response.to.have.status(200);\r",
 							"})\r",
-							""
+							"\r",
+							"postman.setNextRequest('Place a book order')"
 						],
 						"type": "text/javascript"
 					}
@@ -32,46 +33,6 @@
 					],
 					"path": [
 						"status"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Register an API Client",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"pm.test('Verify that Status Code is 201 Created', function () {\r",
-							"    pm.expect(pm.response.code).to.be.oneOf([201,202]);\r",
-							"});"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n   \"clientName\": \"Preshyyy\",\r\n   \"clientEmail\": \"preshyyy@example.com\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{base_url}}/api-clients/",
-					"host": [
-						"{{base_url}}"
-					],
-					"path": [
-						"api-clients",
-						""
 					]
 				}
 			},
@@ -116,13 +77,51 @@
 			"response": []
 		},
 		{
+			"name": "Register an API Client",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"clientName\": \"Preshyyyy\",\r\n   \"clientEmail\": \"preshyyyy@example.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api-clients/",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api-clients",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Get a single book",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test('Verify that Status code is 200', function () {\r",
+							"pm.test('Verify that Status code is 200 OK', function () {\r",
 							"     pm.response.to.have.status(200);\r",
 							"})\r",
 							""
@@ -174,32 +173,29 @@
 					"script": {
 						"exec": [
 							"pm.test('Verify that Status Code is 201 Created', function () {\r",
-							"    pm.expect(pm.response.code).to.be.oneOf([201,202]);\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
 							"});\r",
 							"\r",
+							"pm.environment.set('id', 3);\r",
 							"\r",
-							"pm.environment.set(\"id\", );"
+							"\r",
+							"postman.setNextRequest('null')"
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{accesstoken}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "POST",
 				"header": [
 					{
 						"key": "Token",
 						"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
+						"type": "text"
+					},
+					{
+						"key": "Postman-Token",
+						"value": "<calculated when request is sent>",
 						"type": "text"
 					}
 				],
@@ -244,16 +240,6 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{accesstoken}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "GET",
 				"header": [],
 				"body": {
@@ -319,13 +305,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/orders/2PuYDvt-mlznQ1bJ5DZE9",
+					"raw": "{{base_url}}/orders/JkFgUeSJlcWTxdzwfk144",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
 						"orders",
-						"2PuYDvt-mlznQ1bJ5DZE9"
+						"JkFgUeSJlcWTxdzwfk144"
 					]
 				}
 			},
@@ -334,16 +320,6 @@
 		{
 			"name": "Update an order",
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{accesstoken}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "PATCH",
 				"header": [],
 				"body": {
@@ -385,16 +361,6 @@
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{accesstoken}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "DELETE",
 				"header": [],
 				"body": {
@@ -407,19 +373,29 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/orders/2PuYDvt-mlznQ1bJ5DZE9",
+					"raw": "{{base_url}}/orders/5cNLgN47drcs5YMW-zLPt",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
 						"orders",
-						"2PuYDvt-mlznQ1bJ5DZE9"
+						"5cNLgN47drcs5YMW-zLPt"
 					]
 				}
 			},
 			"response": []
 		}
 	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{accesstoken}}",
+				"type": "string"
+			}
+		]
+	},
 	"event": [
 		{
 			"listen": "prerequest",
@@ -443,7 +419,7 @@
 	"variable": [
 		{
 			"key": "accesstoken",
-			"value": "",
+			"value": "9cf7b33c611840fad15824c1b3d20c7893ae9f7016bf9a161f5389d0483a44b3",
 			"type": "string"
 		}
 	]

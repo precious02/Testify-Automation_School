@@ -3,19 +3,19 @@ package com.Testify;
 
 public class Task5 {
     public static void main(String[] args) {
-        int num = 60;
+        int number = 60;
 
-        if (num % 3 == 0 && num % 5 == 0) {
+        if (number % 3 == 0 && number % 5 == 0) {
             System.out.println("FizzBuzz");
         }
-        else if (num % 3 == 0){
+        else if (number % 3 == 0){
             System.out.println("Fizz");
         }
-        else if (num % 5 == 0){
+        else if (number % 5 == 0){
             System.out.println("Buzz");
         }
         else {
-            System.out.println(num);
+            System.out.println(number);
         }
     }
 }

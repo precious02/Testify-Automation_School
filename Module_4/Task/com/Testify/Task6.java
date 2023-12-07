@@ -4,14 +4,15 @@ public class Task6 {
     public static void main(String[] args) {
 
         String Word = "DEMOCRACY";
-        String newWord = Word.substring(1,5);
 
-        StringBuilder stringVariable = new StringBuilder();
+        StringBuilder wordReverse = new StringBuilder();
 
-        stringVariable.append(newWord);
+        wordReverse.append(Word);
 
-        stringVariable.reverse();
+        wordReverse.reverse();
 
-        System.out.println(stringVariable);
+        System.out.println(wordReverse);
+
+        System.out.println(wordReverse.substring(4,8));
     }
 }

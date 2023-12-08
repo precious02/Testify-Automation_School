@@ -12,7 +12,7 @@ public class Task10 {
 
         Scanner visitorV = new Scanner(System.in);
 
-        System.out.print("What is your reason for joining this Slack channel: ");
+        System.out.print("What is your reason for joining this Slack channel:  ");
         String userInput = visitorV.nextLine();
 
         if (userInput.equalsIgnoreCase("Testify")) {

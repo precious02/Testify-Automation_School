@@ -6,7 +6,7 @@ public class Challenge4 {
 
         System.out.println("The Prime numbers between 1 and 100 are:");
 
-        for (int i = 2; i <= 100; i++) {
+        for (int i = 1; i <= 100; i++) {
             if (PrimeNum(i)) {
                 System.out.print(i + " ");
             }
@@ -15,7 +15,7 @@ public class Challenge4 {
 
     // Function to check if a number is prime
     private static boolean PrimeNum(int number) {
-        if (number <= 1) {
+        if (number <= 0) {
             return false;
         }
 

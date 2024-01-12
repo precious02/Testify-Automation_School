@@ -11,16 +11,16 @@ public class Task5 {
         driver5.manage().window().maximize();
         driver5.get("https://www.saucedemo.com/");
 
-        driver5.findElement(By.xpath("/html/body/div/div/div[2]/div[1]/div/div/form/div[1]/input")).sendKeys("standard_user");
+        driver5.findElement(By.xpath("/html/body/div/div/div[2]/div[1]/div/div/form/div[1]/input")).sendKeys("problem_user");
         driver5.findElement(By.xpath("/html/body/div/div/div[2]/div[1]/div/div/form/div[2]/input")).sendKeys("secret_sauce");
         driver5.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
         Thread.sleep(5000);
 
-        driver.findElement(By.xpath("/html/body/div/div/div/div[2]/div/div/div/div[4]/div[2]/div[2]/button")).click();
+        driver5.findElement(By.xpath("/html/body/div/div/div/div[2]/div/div/div/div[5]/div[2]/div[2]/button")).click();
         Thread.sleep(5000);
-        driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a")).click();
+        driver5.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a")).click();
         Thread.sleep(5000);
-        driver.findElement(By.xpath("//*[@id=\"checkout\"]")).click();
+        driver5.findElement(By.xpath("//*[@id=\"checkout\"]")).click();
         Thread.sleep(5000);
 
     }

@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62083242-7a08-4fae-af50-f365c3b2ace6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task2B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task2C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task2A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +53,35 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task5">
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Task2" />
+  <component name="RunManager" selected="Application.Task6">
+    <configuration name="Task2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task2A" />
+      <module name="Module4Bselenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task2B" />
+      <module name="Module4Bselenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task2C" />
       <module name="Module4Bselenium" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task6" />
+      <module name="Module4Bselenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task6" />
+        <item itemvalue="Application.Task2C" />
+        <item itemvalue="Application.Task2B" />
+        <item itemvalue="Application.Task2A" />
         <item itemvalue="Application.Task5" />
       </list>
     </recent_temporary>

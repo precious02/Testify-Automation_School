@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62083242-7a08-4fae-af50-f365c3b2ace6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task2B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task2C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task2A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task2C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task2C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +48,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/Testify/CI_CD_Clone/ci_cdtestify/Module4Bselenium/src/test/java/org/example&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/Testify/CI_CD_Clone/ci_cdtestify/Module4Bselenium/Testify-Automation_School/Module_4&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\Testify\CI_CD_Clone\ci_cdtestify\Module4Bselenium\Testify-Automation_School\Module_4" />
       <recent name="C:\Users\hp\Desktop\Testify\CI_CD_Clone\ci_cdtestify\Module4Bselenium\src\test\java\org\example" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task6">
-    <configuration name="Task2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Task2A" />
+  <component name="RunManager" selected="Application.Task12">
+    <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task10" />
       <module name="Module4Bselenium" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Task2B" />
+    <configuration name="Task12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task12" />
       <module name="Module4Bselenium" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Task2C" />
+    <configuration name="Task14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task14" />
       <module name="Module4Bselenium" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Task5" />
+    <configuration name="Task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task8" />
       <module name="Module4Bselenium" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Task6" />
+    <configuration name="Task9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Task9" />
       <module name="Module4Bselenium" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task6" />
-        <item itemvalue="Application.Task2C" />
-        <item itemvalue="Application.Task2B" />
-        <item itemvalue="Application.Task2A" />
-        <item itemvalue="Application.Task5" />
+        <item itemvalue="Application.Task12" />
+        <item itemvalue="Application.Task10" />
+        <item itemvalue="Application.Task9" />
+        <item itemvalue="Application.Task8" />
+        <item itemvalue="Application.Task14" />
       </list>
     </recent_temporary>
   </component>

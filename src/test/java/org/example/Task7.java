@@ -8,13 +8,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Task7 {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Documents\\TESTIFY\\Testify_Automation_School\\Module4B\\Task\\src\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\Desktop\\Testify\\CI_CD_Clone\\ci_cdtestify\\Module4Bselenium\\src\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://worldweather.wmo.int/en/home.html");
         Thread.sleep(3000);
 
-        driver.findElement(By.cssSelector("#q_search")).sendKeys("Lagos");
+        driver.findElement(By.cssSelector("#q_search")).sendKeys("London");
         Thread.sleep(3000);
         driver.findElement(By.xpath("/html/body/div[1]/div[4]/div/div[2]/div/form/input[3]")).click();
         Thread.sleep(4000);

@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62083242-7a08-4fae-af50-f365c3b2ace6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task2C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task2C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Testify-Automation_School" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

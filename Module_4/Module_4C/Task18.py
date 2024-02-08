@@ -3,7 +3,7 @@
 # Add another attribute can_walk with value of True
 
 class Human:
-    leg_count = '4'
+    leg_count = 4
     can_walk = True
 
     def __init__(self, name):

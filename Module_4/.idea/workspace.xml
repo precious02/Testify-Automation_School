@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2cba965-32c3-4054-aa9b-ef1f6fb833d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_4C/Python Challenge/Challenge7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706808453935</updated>
-      <workItem from="1706808472509" duration="29896000" />
+      <workItem from="1706808472509" duration="31668000" />
     </task>
     <servers />
   </component>
@@ -80,13 +74,17 @@
     <SUITE FILE_PATH="coverage/Module_4$Task20.coverage" NAME="Task20 Coverage Results" MODIFIED="1707423046833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
     <SUITE FILE_PATH="coverage/Module_4$Task6.coverage" NAME="Task6 Coverage Results" MODIFIED="1706815365003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
     <SUITE FILE_PATH="coverage/Module_4$Task14.coverage" NAME="Task14 Coverage Results" MODIFIED="1706880754499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
+    <SUITE FILE_PATH="coverage/Module_4$Challenge3.coverage" NAME="Challenge3 Coverage Results" MODIFIED="1708015474141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Python Challenge" />
     <SUITE FILE_PATH="coverage/Module_4$Task11.coverage" NAME="Task11 Coverage Results" MODIFIED="1706875439300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
     <SUITE FILE_PATH="coverage/Module_4$Task12.coverage" NAME="Task12 Coverage Results" MODIFIED="1706879492362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
     <SUITE FILE_PATH="coverage/Module_4$.coverage" NAME=" Coverage Results" MODIFIED="1707423026164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
     <SUITE FILE_PATH="coverage/Module_4$Task5.coverage" NAME="Task5 Coverage Results" MODIFIED="1706813463226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
     <SUITE FILE_PATH="coverage/Module_4$Task8.coverage" NAME="Task8 Coverage Results" MODIFIED="1706870088121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
+    <SUITE FILE_PATH="coverage/Module_4$Challenge5.coverage" NAME="Challenge5 Coverage Results" MODIFIED="1708016830840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Python Challenge" />
     <SUITE FILE_PATH="coverage/Module_4$Task17.coverage" NAME="Task17 Coverage Results" MODIFIED="1707423087654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
     <SUITE FILE_PATH="coverage/Module_4$Task2.coverage" NAME="Task2 Coverage Results" MODIFIED="1708014544813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Tasks" />
+    <SUITE FILE_PATH="coverage/Module_4$Challenge2.coverage" NAME="Challenge2 Coverage Results" MODIFIED="1708015389272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Python Challenge" />
+    <SUITE FILE_PATH="coverage/Module_4$Challenge4.coverage" NAME="Challenge4 Coverage Results" MODIFIED="1708015991030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Python Challenge" />
     <SUITE FILE_PATH="coverage/Module_4$Task10.coverage" NAME="Task10 Coverage Results" MODIFIED="1706871482669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
     <SUITE FILE_PATH="coverage/Module_4$Challenge1.coverage" NAME="Challenge1 Coverage Results" MODIFIED="1708015149232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Python Challenge" />
     <SUITE FILE_PATH="coverage/Module_4$Task16.coverage" NAME="Task16 Coverage Results" MODIFIED="1707249017633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
@@ -100,6 +98,7 @@
     <SUITE FILE_PATH="coverage/Module_4$Task1.coverage" NAME="Task1 Coverage Results" MODIFIED="1708014534259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Tasks" />
     <SUITE FILE_PATH="coverage/Module_4$Task25.coverage" NAME="Task25 Coverage Results" MODIFIED="1708014549799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Tasks" />
     <SUITE FILE_PATH="coverage/Module_4$Task18.coverage" NAME="Task18 Coverage Results" MODIFIED="1707333827942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
+    <SUITE FILE_PATH="coverage/Module_4$Challenge6.coverage" NAME="Challenge6 Coverage Results" MODIFIED="1708016823915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C/Python Challenge" />
     <SUITE FILE_PATH="coverage/Module_4$Task13.coverage" NAME="Task13 Coverage Results" MODIFIED="1706880231114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module_4C" />
   </component>
 </project>
